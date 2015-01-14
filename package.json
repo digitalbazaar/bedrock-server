@@ -22,5 +22,17 @@
   "bugs": {
     "url": "https://github.com/digitalbazaar/bedrock-server/issues"
   },
-  "homepage": "https://github.com/digitalbazaar/bedrock-server"
+  "homepage": "https://github.com/digitalbazaar/bedrock-server",
+  "dependencies": {
+    "async": "~0.9.0",
+    "express": "~3.3.5",
+    "node-forge": "~0.6.16"
+  },
+  "peerDependencies": {
+    "bedrock": "~0.3.0"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/server"
 }
