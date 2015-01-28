@@ -2,7 +2,7 @@
   "name": "bedrock-server",
   "version": "0.0.1",
   "description": "Bedrock core server module",
-  "main": "index.js",
+  "main": "./lib/server",
   "scripts": {
     "test": "node test.js"
   },
@@ -34,5 +34,7 @@
   "directories": {
     "lib": "./lib"
   },
-  "main": "./lib/server"
+  "devDependencies": {
+    "superagent": "~0.21.0"
+  }
 }
