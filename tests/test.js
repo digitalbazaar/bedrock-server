@@ -29,6 +29,9 @@ describe('bedrock-server', function() {
       process.env.NODE_TLS_REJECT_UNAUTHORIZED = 0;
       superagent.get(bedrock.config.server.baseUri + '/')
         .end(function(err, res) {
+          if(err) {
+            return done(err);
+          }
           process.env.NODE_TLS_REJECT_UNAUTHORIZED = old;
           res.status.should.equal(200);
           done();
