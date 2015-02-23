@@ -1,5 +1,7 @@
 # bedrock-server ChangeLog
 
+## [Unreleased]
+
 ## 0.1.1 - 2015-02-23
 
 ### Changed
