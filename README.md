@@ -27,4 +27,4 @@ TODO
 TODO
 
 [bedrock]: https://github.com/digitalbazaar/bedrock
-[bedrock-exprses]: https://github.com/digitalbazaar/bedrock-express
+[bedrock-express]: https://github.com/digitalbazaar/bedrock-express
