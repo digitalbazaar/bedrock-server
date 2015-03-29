@@ -33,7 +33,7 @@ bedrock.start();
 
 ## Configuration
 
-For documentation on server configuration, see [config.js](https://github.com/digitalbazaar/bedrock-server/blob/master/lib/config.js).
+For documentation on server configuration, see [config.js](./lib/config.js).
 
 ## Setup
 
