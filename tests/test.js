@@ -14,11 +14,12 @@ describe('bedrock-server', function() {
         bedrock.config.server.httpPort + '/';
       superagent.get(httpUrl)
         .redirects(0)
-        .end(function(err, res) {
-          res.status.should.equal(302);
-          res.header.should.have.property(
+        .end(function(err) {
+          should.exist(err);
+          err.status.should.equal(302);
+          err.response.header.should.have.property(
             'strict-transport-security', 'max-age=31536000');
-          done(err);
+          done();
         });
     });
   });
