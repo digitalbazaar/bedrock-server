@@ -6,6 +6,10 @@ and other features for writing Web applications, but depend on this module
 for core low-level functionality like listening for incoming connections,
 redirecting HTTP traffic to the HTTPS port, and configuring SSL/TLS.
 
+## Requirements
+
+- npm v3+
+
 ## Quick Examples
 
 ```
