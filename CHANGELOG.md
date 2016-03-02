@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [2.0.0] - 2016-03-02
+
+### Changed
+- Update deps for npm v3 compatibility.
+
 ## [1.0.2] - 2015-05-07
 
 ## [1.0.1] - 2015-04-09
