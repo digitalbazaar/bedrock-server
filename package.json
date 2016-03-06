@@ -1,6 +1,6 @@
 {
   "name": "bedrock-server",
-  "version": "1.0.3-dev",
+  "version": "1.1.0",
   "description": "Bedrock core server module",
   "main": "./lib/server",
   "scripts": {

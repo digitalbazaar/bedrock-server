@@ -2,6 +2,15 @@
 
 ## [Unreleased]
 
+## [1.1.0] - 2016-03-06
+
+### Added
+
+- Add ability to directly configure `tls.createServer` options via
+  `bedrock.config.server.https.options`. Any options given in
+  `bedrock.config.server.*` (such as `bedrock.config.server.key`) may
+  overwrite those specified in `bedrock.config.server.https.options`.
+
 ## [1.0.2] - 2015-05-07
 
 ## [1.0.1] - 2015-04-09
@@ -24,7 +33,8 @@
 
 - See git history for changes.
 
-[Unreleased]: https://github.com/digitalbazaar/bedrock-server/compare/1.0.2...HEAD
+[Unreleased]: https://github.com/digitalbazaar/bedrock-server/compare/1.1.0...HEAD
+[1.1.0]: https://github.com/digitalbazaar/bedrock-server/compare/1.0.2...1.1.0
 [1.0.2]: https://github.com/digitalbazaar/bedrock-server/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/digitalbazaar/bedrock-server/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/digitalbazaar/bedrock-server/compare/0.1.1...1.0.0
