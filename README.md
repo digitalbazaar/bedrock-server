@@ -35,6 +35,24 @@ bedrock.events.on('bedrock.ready', function() {
 bedrock.start();
 ```
 
+By default, `bedrock-server` will redirect any HTTP requests to HTTPS. To
+replace this default behavior, do the following:
+
+```js
+var server = require('bedrock-server');
+
+// once bedrock is ready, attach request handler
+bedrock.events.on('bedrock.ready', function() {
+  // attach to HTTP server
+  server.servers.http.on('request', function(req, res) {
+    res.writeHead(200, {'Content-Type': 'text/plain'});
+    res.end('Hello World\n');
+  });
+});
+
+bedrock.start();
+```
+
 ## Configuration
 
 For documentation on server configuration, see [config.js](./lib/config.js).
