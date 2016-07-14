@@ -1,6 +1,7 @@
 /*
  * Copyright (c) 2014-2015 Digital Bazaar, Inc. All rights reserved.
  */
+/* global should */
 
 'use strict';
 
