@@ -1,5 +1,7 @@
 # bedrock-server
 
+![build status](http://ci.digitalbazaar.com/buildStatus/icon?job=bedrock-server)
+
 A [bedrock][] module that provides a basic HTTP and HTTPS server. Other
 modules, such as [bedrock-express][], typically provide a routing framework
 and other features for writing Web applications, but depend on this module
