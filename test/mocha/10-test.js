@@ -11,7 +11,7 @@ request = request.defaults({strictSSL: false});
 
 describe('bedrock-server', function() {
   describe('HTTP Strict Transport Security', function() {
-    it('should be enabled by default', done => {
+    it('should redirect to HTTPS URL by default', done => {
       var httpUrl = 'http://' + bedrock.config.server.domain + ':' +
         bedrock.config.server.httpPort + '/';
       request.get({
@@ -22,6 +22,8 @@ describe('bedrock-server', function() {
         res.statusCode.should.equal(302);
         res.headers.should.have.property(
           'strict-transport-security', 'max-age=31536000');
+        res.headers.should.have.property(
+          'location', bedrock.config.server.baseUri + '/');
         done();
       });
     });
