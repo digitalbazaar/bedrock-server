@@ -4,7 +4,7 @@
   "description": "Bedrock core server module test",
   "main": "test",
   "scripts": {
-    "test": "node test.js test"
+    "test": "node --preserve-symlinks test.js test"
   },
   "repository": {
     "type": "git",
