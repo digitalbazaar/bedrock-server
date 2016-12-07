@@ -1,5 +1,10 @@
 # bedrock-server ChangeLog
 
+### Changed
+- Update bedrock dependency.
+- Use computed config for various server values.
+  - Add defaults for bindAddr, host, baseUri.
+
 ## 2.1.3 - 2016-09-21
 
 ### Changed
