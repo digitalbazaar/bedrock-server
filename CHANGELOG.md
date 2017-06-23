@@ -1,5 +1,12 @@
 # bedrock-server ChangeLog
 
+## Unreleased
+
+### Changed
+- Update `node-forge` dependency.
+- Update `async` dependency.
+- Use ES6 syntax.
+
 ## 2.2.0 - 2016-12-09
 
 ### Changed
