@@ -1,6 +1,6 @@
 # bedrock-server ChangeLog
 
-## Unreleased
+## 2.2.1 - 2017-07-24
 
 ### Changed
 - Update `node-forge` dependency.
