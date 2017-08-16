@@ -62,16 +62,16 @@ For documentation on server configuration, see [config.js](./lib/config.js).
 ## Setup
 
 1. [optional] Tweak configuration
-2. Map the `bedrock.dev` hostname (or whatever you've configured) to your
+2. Map the `bedrock.local` hostname (or whatever you've configured) to your
    machine:
    1. Edit the /etc/hosts file as the administrator/root.
-   2. Add an entry mapping the IP address to `bedrock.dev`.
-      For example: `192.168.0.15 bedrock.dev` (where `192.168.0.15`
+   2. Add an entry mapping the IP address to `bedrock.local`.
+      For example: `192.168.0.15 bedrock.local` (where `192.168.0.15`
       is the IP address of your primary network device).
 
 To access the server once bedrock is running:
 
-1. Go to: https://bedrock.dev:18443/
+1. Go to: https://bedrock.local:18443/
 2. The certificate warning is normal for development mode. Accept it and
    continue.
 
