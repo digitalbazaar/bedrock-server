@@ -1,5 +1,11 @@
 # bedrock-server ChangeLog
 
+## 2.3.0 - 2017-08-17
+
+### Changed
+- Change default server name from `bedrock.dev` to `bedrock.local`. `dev` is
+  a real top-level domain.
+
 ## 2.2.1 - 2017-07-24
 
 ### Changed
