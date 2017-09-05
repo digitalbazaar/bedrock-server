@@ -5,14 +5,14 @@
 
 'use strict';
 
-var bedrock = require('bedrock');
-var request = require('request');
+const bedrock = require('bedrock');
+let request = require('request');
 request = request.defaults({strictSSL: false});
 
 describe('bedrock-server', function() {
   describe('HTTP Strict Transport Security', function() {
     it('should redirect to HTTPS URL by default', done => {
-      var httpUrl = 'http://' + bedrock.config.server.domain + ':' +
+      const httpUrl = 'http://' + bedrock.config.server.domain + ':' +
         bedrock.config.server.httpPort + '/';
       request.get({
         url: httpUrl,
