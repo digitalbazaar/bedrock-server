@@ -1,5 +1,10 @@
 # bedrock-server ChangeLog
 
+## 2.3.1 - 2017-09-05
+
+### Fixed
+- Fixed incorrect use of `const`.
+
 ## 2.3.0 - 2017-08-17
 
 ### Changed
