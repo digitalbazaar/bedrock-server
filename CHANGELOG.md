@@ -1,5 +1,7 @@
 # bedrock-server ChangeLog
 
+## 2.3.2 - 2018-08-14
+
 ### Changed
 - Change default server name from `bedrock.local` to `bedrock.localhost`.
 - Update development certificate to use sha256.
