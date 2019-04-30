@@ -1,5 +1,11 @@
 # bedrock-server ChangeLog
 
+## 2.3.3 - 2019-04-30
+
+### Fixed
+- Start HTTP/HTTPS listeners on the `bedrock.started` event. This is after
+  `bedrock-express` configures routes on `bedrock.ready`.
+
 ## 2.3.2 - 2018-08-14
 
 ### Changed
