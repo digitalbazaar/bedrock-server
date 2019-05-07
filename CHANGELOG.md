@@ -1,5 +1,11 @@
 # bedrock-server ChangeLog
 
+## 2.3.4 - 2019-05-07
+
+### Fixed
+- Start HTTP/HTTPS listeners on the `bedrock.ready` event.
+  `bedrock-express@2.1.1` now attaches on `bedrock.start`.
+
 ## 2.3.3 - 2019-04-30
 
 ### Fixed
