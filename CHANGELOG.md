@@ -1,5 +1,8 @@
 # bedrock-server ChangeLog
 
+### Changed
+- Update to latest bedrock events API.
+
 ## 2.3.4 - 2019-05-07
 
 ### Fixed
