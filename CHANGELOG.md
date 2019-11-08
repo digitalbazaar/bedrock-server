@@ -1,5 +1,7 @@
 # bedrock-server ChangeLog
 
+## 2.4.0 - 2019-11-08
+
 ### Changed
 - Update to latest bedrock events API.
 - Use more async/await.
