@@ -6,7 +6,7 @@
     "test": "node --preserve-symlinks test.js test"
   },
   "dependencies": {
-    "bedrock": "^2.0.0",
+    "bedrock": "^3.0.0",
     "bedrock-server": "file:..",
     "bedrock-test": "^4.0.0",
     "request": "^2.75.0"
