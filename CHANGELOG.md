@@ -1,5 +1,10 @@
 # bedrock-server ChangeLog
 
+## 2.4.1 - TBD
+
+### Fixed
+- Add missing colon between address and port number in logging.
+
 ## 2.4.0 - 2019-11-08
 
 ### Changed
