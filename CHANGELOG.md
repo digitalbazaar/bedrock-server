@@ -1,6 +1,6 @@
 # bedrock-server ChangeLog
 
-## 2.5.0 - 2020-04-xx
+## 2.5.0 - 2020-04-06
 
 ### Added
 - Add HTTP/2 support.
