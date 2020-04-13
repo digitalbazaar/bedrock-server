@@ -1,5 +1,5 @@
 /*!
- * Copyright (c) 2014-2019 Digital Bazaar, Inc. All rights reserved.
+ * Copyright (c) 2014-2020 Digital Bazaar, Inc. All rights reserved.
  */
 'use strict';
 
