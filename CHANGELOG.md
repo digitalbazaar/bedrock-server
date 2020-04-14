@@ -1,5 +1,11 @@
 # bedrock-server ChangeLog
 
+## 2.6.0 - 2020-04-14
+
+### Changed
+- Change default server name from `bedrock.localhost` to `localhost`.
+- Setup CI.
+
 ## 2.5.0 - 2020-04-06
 
 ### Added
