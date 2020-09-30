@@ -4,4 +4,4 @@ module.exports = {
     node: true
   },
   extends: ['digitalbazaar']
-}
+};
