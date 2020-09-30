@@ -1,5 +1,10 @@
 # bedrock-server ChangeLog
 
+## 2.7.0 - 2020-09-30
+
+### Changed
+- Use node-forge@0.10.0.
+
 ## 2.6.0 - 2020-04-14
 
 ### Changed
