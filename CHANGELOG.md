@@ -1,5 +1,16 @@
 # bedrock-server ChangeLog
 
+## 2.8.0 - TBD
+
+### Added
+- Do not listen for HTTP/HTTPS requests until readiness checks have passed. This
+  is compatible with deployment platforms that lack explicit health and
+  readiness checks, but instead expect that the application is ready when it
+  responds to requests sent to the HTTP/HTTPS server's TCP port.
+  - Emit a new `bedrock-server.readinessCheck` event.
+  - Delay the start of the HTTP/HTTPS servers until the
+    `bedrock-server.readinessCheck` listeners have succeeded.
+
 ## 2.7.0 - 2020-09-30
 
 ### Changed
