@@ -1,6 +1,6 @@
 # bedrock-server ChangeLog
 
-## 2.8.0 - TBD
+## 2.8.0 - 2021-07-15
 
 ### Added
 - Do not listen for HTTP/HTTPS requests until readiness checks have passed. This
