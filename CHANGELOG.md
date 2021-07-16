@@ -1,5 +1,10 @@
 # bedrock-server ChangeLog
 
+## 2.8.1 - TBD
+
+### Changed
+- Changed peerDependency for `bedrock` to allow 4.x.
+
 ## 2.8.0 - 2021-07-15
 
 ### Added
