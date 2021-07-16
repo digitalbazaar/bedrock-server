@@ -76,6 +76,32 @@ To access the server once bedrock is running:
 2. The certificate warning is normal for development mode. Accept it and
    continue.
 
+## Bedrock Events
+
+List of emitted
+[Bedrock Events](https://github.com/digitalbazaar/bedrock#bedrockevents):
+
+- **bedrock-server.readinessCheck**
+  - Emitted before listening starts on any ports.
+- **bedrock-server.http.listen**
+  - **Arguments**:
+    - `{address, port}`: Object with address and port to listen on.
+  - Emitted before listening on a HTTP port.
+- **bedrock-server.http.listening**
+  - **Arguments**:
+    - `{address, port}`: Object with address and port now listening on.
+  - Emitted after listening on a HTTP port.
+- **bedrock-server.https.listen**
+  - **Arguments**:
+    - `{address, port}`: Object with address and port to listen on.
+  - Emitted before listening on a HTTPS port.
+- **bedrock-server.https.listening**
+  - **Arguments**:
+    - `{address, port}`: Object with address and port now listening on.
+  - Emitted after listening on a HTTPS port.
+- **bedrock-server.ready**
+  - Emitted after listening is complete.
+
 ## How It Works
 
 TODO
