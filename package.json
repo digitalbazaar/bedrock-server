@@ -30,7 +30,7 @@
     "spdy": "^4.0.2"
   },
   "peerDependencies": {
-    "bedrock": "1.3.0 - 3.x"
+    "bedrock": "^4.3.0"
   },
   "directories": {
     "lib": "./lib"
