@@ -1,5 +1,10 @@
 # bedrock-server ChangeLog
 
+## 2.9.0 - 2021-07-xx
+
+### Changed
+- Update peer dependencies; use bedrock@4.
+
 ## 2.8.0 - 2021-07-15
 
 ### Added
