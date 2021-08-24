@@ -1,5 +1,12 @@
 # bedrock-server ChangeLog
 
+## 3.0.0 - 2021-08-xx
+
+### Changed
+- **BREAKING** Use native http2 implementation instead of `spdy`. If you
+  are also using bedrock-express then use version 4.1+ of that library to
+  ensure there are no compatibility issues.
+
 ## 2.9.0 - 2021-07-23
 
 ### Changed
