@@ -1,5 +1,10 @@
 # bedrock-server ChangeLog
 
+## 3.1.0 - 2021-TBD
+
+### Added
+- Setup nyc and add code coverage to github actions.
+
 ## 3.0.0 - 2021-08-24
 
 ### Changed

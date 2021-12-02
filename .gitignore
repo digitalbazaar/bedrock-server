@@ -1,6 +1,9 @@
 *.py[co]
 *.sw[nop]
 *~
+*.lcov
+*.log
+.nyc_output
 .project
 .settings
 .vscode
