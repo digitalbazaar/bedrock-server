@@ -2,6 +2,9 @@
 
 ## 3.1.0 - 2021-TBD
 
+### Changed
+- Use node-forge@1.2.1.
+
 ### Added
 - Setup nyc and add code coverage to github actions.
 
