@@ -1,6 +1,6 @@
 # bedrock-server ChangeLog
 
-## 3.1.0 - 2021-TBD
+## 3.1.0 - 2022-01-21
 
 ### Changed
 - Use node-forge@1.2.1.
