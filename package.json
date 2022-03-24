@@ -29,13 +29,15 @@
     "node-forge": "^1.2.1"
   },
   "peerDependencies": {
-    "bedrock": "^4.3.0"
+    "bedrock": "^4.5.0"
   },
   "directories": {
     "lib": "./lib"
   },
   "devDependencies": {
-    "eslint": "^7.10.0",
-    "eslint-config-digitalbazaar": "^2.0.1"
+    "eslint": "^7.13.0",
+    "eslint-config-digitalbazaar": "^2.8.0",
+    "eslint-plugin-jsdoc": "^37.9.7",
+    "jsdoc-to-markdown": "^6.0.1"
   }
 }
