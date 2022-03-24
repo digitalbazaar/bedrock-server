@@ -1,5 +1,13 @@
 # bedrock-server ChangeLog
 
+## 3.2.0 - 2022-03-xx
+
+### Changed
+- Update peer deps:
+  - `bedrock@4.5`.
+- Update internals to use esm style and use `esm.js` to
+  transpile to CommonJS.
+
 ## 3.1.0 - 2022-01-21
 
 ### Changed
