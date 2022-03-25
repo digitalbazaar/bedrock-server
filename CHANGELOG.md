@@ -1,5 +1,10 @@
 # bedrock-server ChangeLog
 
+## 3.2.1 - 2022-03-xx
+
+### Fixed
+- Add missing `esm` dependency.
+
 ## 3.2.0 - 2022-03-24
 
 ### Changed
