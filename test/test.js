@@ -1,10 +1,8 @@
 /*!
- * Copyright (c) 2016-2020 Digital Bazaar, Inc. All rights reserved.
+ * Copyright (c) 2016-2022 Digital Bazaar, Inc. All rights reserved.
  */
-'use strict';
+import * as bedrock from '@bedrock/core';
+import '@bedrock/server';
+import '@bedrock/test';
 
-const bedrock = require('bedrock');
-require('bedrock-server');
-
-require('bedrock-test');
 bedrock.start();

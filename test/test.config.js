@@ -1,11 +1,10 @@
 /*!
- * Bedrock Server Module test configuration.
- *
- * Copyright (c) 2012-2020 Digital Bazaar, Inc. All rights reserved.
+ * Copyright (c) 2012-2022 Digital Bazaar, Inc. All rights reserved.
  */
-'use strict';
+import {config} from '@bedrock/core';
+import {fileURLToPath} from 'url';
+import path from 'path';
 
-const config = require('bedrock').config;
-const path = require('path');
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 config.mocha.tests.push(path.join(__dirname, 'mocha'));
