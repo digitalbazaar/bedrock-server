@@ -15,7 +15,7 @@ redirecting HTTP traffic to the HTTPS port, and configuring SSL/TLS.
 ## Quick Examples
 
 ```
-npm install bedrock-server
+npm install @bedrock/server
 ```
 
 An example of attaching a custom request handler to the server once Bedrock is
@@ -37,7 +37,7 @@ bedrock.events.on('bedrock.ready', function() {
 bedrock.start();
 ```
 
-By default, `bedrock-server` will redirect any HTTP requests to HTTPS. To
+By default, `@bedrock/server` will redirect any HTTP requests to HTTPS. To
 replace this default behavior, do the following:
 
 ```js
