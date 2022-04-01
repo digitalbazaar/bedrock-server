@@ -10,7 +10,7 @@ redirecting HTTP traffic to the HTTPS port, and configuring SSL/TLS.
 
 ## Requirements
 
-- npm v3+
+- npm v6+
 
 ## Quick Examples
 
@@ -22,8 +22,8 @@ An example of attaching a custom request handler to the server once Bedrock is
 ready.
 
 ```js
-var bedrock = require('bedrock');
-var server = require('bedrock-server');
+const * as bedrock from '@bedrock/core';
+const * as server from '@bedrock/server';
 
 // once bedrock is ready, attach request handler
 bedrock.events.on('bedrock.ready', function() {
@@ -41,7 +41,7 @@ By default, `bedrock-server` will redirect any HTTP requests to HTTPS. To
 replace this default behavior, do the following:
 
 ```js
-var server = require('bedrock-server');
+const * as server from '@bedrock/server';
 
 // once bedrock is ready, attach request handler
 bedrock.events.on('bedrock.ready', function() {

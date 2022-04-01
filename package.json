@@ -1,8 +1,9 @@
 {
   "name": "bedrock-server",
   "version": "3.2.2-0",
+  "type": "module",
   "description": "Bedrock core server module",
-  "main": "lib",
+  "main": "./lib/index.js",
   "scripts": {
     "lint": "eslint ."
   },
@@ -24,13 +25,12 @@
   },
   "homepage": "https://github.com/digitalbazaar/bedrock-server",
   "dependencies": {
-    "esm": "^3.2.25",
     "express": "^4.12.0",
     "morgan": "^1.5.2",
-    "node-forge": "^1.2.1"
+    "node-forge": "^1.3.0"
   },
   "peerDependencies": {
-    "bedrock": "^4.5.0"
+    "@core/bedrock": "^5.0.0"
   },
   "directories": {
     "lib": "./lib"
