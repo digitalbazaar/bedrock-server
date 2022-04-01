@@ -1,6 +1,6 @@
 # bedrock-server ChangeLog
 
-## 4.0.1 - 2022-04-xx
+## 4.0.1 - 2022-04-01
 
 ### Fixed
 - Use `jsdoc-to-markdown@7`.
