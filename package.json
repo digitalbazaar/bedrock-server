@@ -30,7 +30,7 @@
     "node-forge": "^1.3.0"
   },
   "peerDependencies": {
-    "@core/bedrock": "^5.0.0"
+    "@bedrock/core": "^5.0.0"
   },
   "directories": {
     "lib": "./lib"
