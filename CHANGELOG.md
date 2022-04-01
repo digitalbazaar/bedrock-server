@@ -1,6 +1,6 @@
 # bedrock-server ChangeLog
 
-## 4.0.0 - 2022-04-xx
+## 4.0.0 - 2022-04-01
 
 ### Changed
 - **BREAKING**: Rename package to `@bedrock/server`.
