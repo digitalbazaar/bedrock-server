@@ -1,6 +1,6 @@
 # bedrock-server ChangeLog
 
-## 4.1.0 - 2022-04-xx
+## 4.1.0 - 2022-04-20
 
 ### Added
 - Add `_readCertificateBundles` export for testing purposes.
