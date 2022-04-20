@@ -5,4 +5,7 @@ import * as bedrock from '@bedrock/core';
 import '@bedrock/server';
 import '@bedrock/test';
 
-bedrock.start();
+bedrock.start().catch(e => {
+  console.error(e);
+  process.exit(1);
+});
