@@ -3,7 +3,7 @@
 ## 4.1.0 - 2022-04-xx
 
 ### Added
-- Add `_helpers` export for testing purposes.
+- Add `_readCertificateBundles` export for testing purposes.
 
 ### Changed
 - Remove `node-forge` dependency by relying on built-in CA option (for
