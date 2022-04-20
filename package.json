@@ -1,6 +1,6 @@
 {
   "name": "@bedrock/server",
-  "version": "4.0.2-0",
+  "version": "4.1.0",
   "type": "module",
   "description": "Bedrock core server module",
   "main": "./lib/index.js",
