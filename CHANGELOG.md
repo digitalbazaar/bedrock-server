@@ -5,6 +5,10 @@
 ### Added
 - Add `_helpers` export for testing purposes.
 
+### Changed
+- Remove `node-forge` dependency by relying on built-in CA option (for
+  client-side certs) made available since node >= 8.
+
 ## 4.0.1 - 2022-04-01
 
 ### Fixed
