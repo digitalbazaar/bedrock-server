@@ -1,6 +1,6 @@
 # bedrock-server ChangeLog
 
-## 5.0.0 - 2022-04-xx
+## 5.0.0 - 2022-04-28
 
 ### Changed
 - **BREAKING**: Require `@bedrock/core@6` peer dep.
