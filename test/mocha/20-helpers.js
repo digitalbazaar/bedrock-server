@@ -2,8 +2,8 @@
  * Copyright (c) 2014-2022 Digital Bazaar, Inc. All rights reserved.
  */
 import {_readCertificateBundles} from '@bedrock/server';
-import {fileURLToPath} from 'url';
-import path from 'path';
+import {fileURLToPath} from 'node:url';
+import path from 'node:path';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const mockCertBundle = path.join(__dirname, './mock.bundle.crt');
