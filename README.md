@@ -22,8 +22,8 @@ An example of attaching a custom request handler to the server once Bedrock is
 ready.
 
 ```js
-const * as bedrock from '@bedrock/core';
-const * as server from '@bedrock/server';
+import * as bedrock from '@bedrock/core';
+import * as server from '@bedrock/server';
 
 // once bedrock is ready, attach request handler
 bedrock.events.on('bedrock.ready', function() {
@@ -41,7 +41,7 @@ By default, `@bedrock/server` will redirect any HTTP requests to HTTPS. To
 replace this default behavior, do the following:
 
 ```js
-const * as server from '@bedrock/server';
+import * as server from '@bedrock/server';
 
 // once bedrock is ready, attach request handler
 bedrock.events.on('bedrock.ready', function() {
