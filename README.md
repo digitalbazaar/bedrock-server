@@ -76,6 +76,7 @@ For documentation on server configuration, see [config.js](./lib/config.js).
 
 ### IP Tunnel
 Bedrock server maybe used with an IP tunnel.
+
 In `config/express.js`:
 ```js
 // allow the tunnel http only access
