@@ -76,12 +76,16 @@ For documentation on server configuration, see [config.js](./lib/config.js).
 
 ### IP Tunnel
 Bedrock server maybe used with an IP tunnel.
+In `config/express.js`:
 ```js
 // allow the tunnel http only access
 config.express.httpOnly = true;
 // configure fastify to trust the ip tunnel proxy 
 config.express.fastifyOptions.trustProxy = true;
+```
 
+In `config/server.js`:
+```js
 // accept connections from any IP
 config.server.domain = '0.0.0.0';
 // this should be website the IP tunnel will host on 
