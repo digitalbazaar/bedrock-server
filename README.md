@@ -9,6 +9,7 @@
 - [Usage](#usage)
   - [Quick Example](#quick-examples)
 - [Configuration](#configuration)
+  - [IP Tunnel](#ip-tunnel)
 - [Setup](#setup)
 - [Bedrock Events](#bedrock-events)
 - [How It Works](#how-it-works)
@@ -72,6 +73,22 @@ bedrock.start();
 ## Configuration
 
 For documentation on server configuration, see [config.js](./lib/config.js).
+
+### IP Tunnel
+Bedrock server maybe used with an IP tunnel.
+```js
+// allow the tunnel http only access
+config.express.httpOnly = true;
+// configure fastify to trust the ip tunnel proxy 
+config.express.fastifyOptions.trustProxy = true;
+
+// accept connections from any IP
+config.server.domain = '0.0.0.0';
+// this should be website the IP tunnel will host on 
+config.server.host = 'your.host.name';
+// bind your tunnel to this port
+config.server.httpPort = 8080; 
+```
 
 ## Setup
 
