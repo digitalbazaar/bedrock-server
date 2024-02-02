@@ -2,6 +2,18 @@
 
 [![Bedrock Node.js CI](https://github.com/digitalbazaar/bedrock-server/workflows/Bedrock%20Node.js%20CI/badge.svg)](https://github.com/digitalbazaar/bedrock-server/actions?query=workflow%3A%22Bedrock+Node.js+CI%22)
 
+## Table of Contents
+
+- [Background](#background)
+- [Requirements](#requirements)
+- [Usage](#usage)
+  - [Quick Example](#quick-examples)
+- [Configuration](#configuration)
+- [Setup](#setup)
+- [Bedrock Events](#bedrock-events)
+- [How It Works](#how-it-works)
+
+## Background
 A [bedrock][] module that provides a basic HTTP and HTTPS server. Other
 modules, such as [bedrock-express][], typically provide a routing framework
 and other features for writing Web applications, but depend on this module
@@ -12,7 +24,9 @@ redirecting HTTP traffic to the HTTPS port, and configuring SSL/TLS.
 
 - npm v6+
 
-## Quick Examples
+## Usage 
+
+### Quick Examples
 
 ```
 npm install @bedrock/server
