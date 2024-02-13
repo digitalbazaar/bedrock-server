@@ -3,6 +3,7 @@
   "version": "5.0.1-0",
   "type": "module",
   "description": "Bedrock core server module",
+  "license": "BSD-3-Clause",
   "main": "./lib/index.js",
   "scripts": {
     "lint": "eslint ."
