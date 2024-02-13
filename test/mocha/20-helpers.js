@@ -1,5 +1,7 @@
 /*!
- * Copyright (c) 2014-2022 Digital Bazaar, Inc. All rights reserved.
+ * Copyright (c) 2014-2024 Digital Bazaar, Inc.
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
  */
 import {_readCertificateBundles} from '@bedrock/server';
 import {fileURLToPath} from 'node:url';

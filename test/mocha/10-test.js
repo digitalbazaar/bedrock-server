@@ -1,5 +1,7 @@
 /*!
- * Copyright (c) 2014-2022 Digital Bazaar, Inc. All rights reserved.
+ * Copyright (c) 2014-2024 Digital Bazaar, Inc.
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
  */
 import * as bedrock from '@bedrock/core';
 import request from 'request';
