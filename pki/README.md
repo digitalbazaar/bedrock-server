@@ -1,3 +1,6 @@
+NOTE: the certificates in this directory are for demonstration only. Rewrite
+them with your own certificates following the instructions below.
+
 Create certificates similar to the instructions in:
 https://letsencrypt.org/docs/certificates-for-localhost/
 
