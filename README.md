@@ -10,7 +10,8 @@ redirecting HTTP traffic to the HTTPS port, and configuring SSL/TLS.
 
 ## Requirements
 
-- npm v6+
+- node v18+
+- npm v9+
 
 ## Quick Examples
 
