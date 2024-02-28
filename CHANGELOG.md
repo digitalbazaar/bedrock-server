@@ -1,5 +1,10 @@
 # bedrock-server ChangeLog
 
+## 5.1.0 - 2024-mm-dd
+
+### Changed
+- Relicense under the Apache-2.0 license.
+
 ## 5.0.0 - 2022-04-28
 
 ### Changed
