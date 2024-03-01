@@ -2,6 +2,19 @@
 
 [![Bedrock Node.js CI](https://github.com/digitalbazaar/bedrock-server/workflows/Bedrock%20Node.js%20CI/badge.svg)](https://github.com/digitalbazaar/bedrock-server/actions?query=workflow%3A%22Bedrock+Node.js+CI%22)
 
+## Table of Contents
+
+- [Background](#background)
+- [Requirements](#requirements)
+- [Usage](#usage)
+  - [Quick Example](#quick-examples)
+- [Configuration](#configuration)
+  - [IP Tunnel](#ip-tunnel)
+- [Setup](#setup)
+- [Bedrock Events](#bedrock-events)
+- [How It Works](#how-it-works)
+
+## Background
 A [bedrock][] module that provides a basic HTTP and HTTPS server. Other
 modules, such as [bedrock-express][], typically provide a routing framework
 and other features for writing Web applications, but depend on this module
@@ -13,7 +26,9 @@ redirecting HTTP traffic to the HTTPS port, and configuring SSL/TLS.
 - node v18+
 - npm v9+
 
-## Quick Examples
+## Usage 
+
+### Quick Examples
 
 ```
 npm install @bedrock/server
@@ -59,6 +74,27 @@ bedrock.start();
 ## Configuration
 
 For documentation on server configuration, see [config.js](./lib/config.js).
+
+### IP Tunnel
+Bedrock server maybe used with an IP tunnel.
+
+In `config/express.js`:
+```js
+// allow the tunnel http only access
+config.express.httpOnly = true;
+// configure fastify to trust the ip tunnel proxy 
+config.express.fastifyOptions.trustProxy = true;
+```
+
+In `config/server.js`:
+```js
+// accept connections from any interface on your device
+config.server.domain = '0.0.0.0';
+// this should be website the IP tunnel will host on 
+config.server.host = 'your.host.name';
+// bind your tunnel to this port
+config.server.httpPort = 8080; 
+```
 
 ## Setup
 
