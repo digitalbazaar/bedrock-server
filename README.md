@@ -1,7 +1,5 @@
 # bedrock-server
 
-[![Bedrock Node.js CI](https://github.com/digitalbazaar/bedrock-server/workflows/Bedrock%20Node.js%20CI/badge.svg)](https://github.com/digitalbazaar/bedrock-server/actions?query=workflow%3A%22Bedrock+Node.js+CI%22)
-
 A [bedrock][] module that provides a basic HTTP and HTTPS server. Other
 modules, such as [bedrock-express][], typically provide a routing framework
 and other features for writing Web applications, but depend on this module
