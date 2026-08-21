@@ -4,7 +4,7 @@
 
 ### Changed
 - Use `import.meta.dirname`.
-- Update dev dependencies.
+- Update dev and test dependencies.
 - **NOTE**: Update supported platforms.
   - Test on Node.js >=22.
   - Update `engines.node` to `>=22`.
