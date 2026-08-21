@@ -4,6 +4,11 @@
 
 ### Changed
 - Use `import.meta.dirname`.
+- Update dependencies.
+  - `express@4.22.2`
+  - `morgan@1.11.0`
+- Update peer dependencies.
+  - `@bedrock/core@6.3.0`
 - Update dev and test dependencies.
 - **NOTE**: Update supported platforms.
   - Test on Node.js >=22.
