@@ -1,5 +1,13 @@
 # bedrock-server ChangeLog
 
+## 5.2.0 - 2026-xx-xx
+
+### Changed
+- **NOTE**: Update supported platforms.
+  - Test on Node.js >=22.
+  - Update `engines.node` to `>=22`.
+  - Update README requirements section.
+
 ## 5.1.0 - 2024-02-28
 
 ### Changed
