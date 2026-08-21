@@ -5,6 +5,12 @@
   "description": "Bedrock core server module",
   "license": "Apache-2.0",
   "main": "./lib/index.js",
+  "files": [
+    ".reuse/dep5",
+    "LICENSES/**/*.txt",
+    "lib/**/*.js",
+    "pki/**/*.{md,key,crt}"
+  ],
   "scripts": {
     "lint": "eslint ."
   },

@@ -8,6 +8,9 @@
   - Update `engines.node` to `>=22`.
   - Update README requirements section.
 
+### Fixed
+- Add `package.json` `files` field.
+
 ## 5.1.0 - 2024-02-28
 
 ### Changed
