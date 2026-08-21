@@ -3,6 +3,7 @@
 ## 5.2.0 - 2026-xx-xx
 
 ### Changed
+- Use `import.meta.dirname`.
 - **NOTE**: Update supported platforms.
   - Test on Node.js >=22.
   - Update `engines.node` to `>=22`.
