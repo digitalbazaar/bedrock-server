@@ -1,6 +1,6 @@
 # bedrock-server ChangeLog
 
-## 5.2.0 - 2026-xx-xx
+## 5.2.0 - 2026-08-21
 
 ### Changed
 - Use `import.meta.dirname`.
