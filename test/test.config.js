@@ -1,5 +1,5 @@
 /*!
- * Copyright 2012 - 2024 Digital Bazaar, Inc.
+ * Copyright 2012 - 2026 Digital Bazaar, Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,9 +17,6 @@
  */
 
 import {config} from '@bedrock/core';
-import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-
-config.mocha.tests.push(path.join(__dirname, 'mocha'));
+config.mocha.tests.push(path.join(import.meta.dirname, 'mocha'));

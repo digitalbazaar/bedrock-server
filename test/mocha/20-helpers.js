@@ -1,5 +1,5 @@
 /*!
- * Copyright 2014 - 2024 Digital Bazaar, Inc.
+ * Copyright 2014 - 2026 Digital Bazaar, Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,11 +17,9 @@
  */
 
 import {_readCertificateBundles} from '@bedrock/server';
-import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const mockCertBundle = path.join(__dirname, './mock.bundle.crt');
+const mockCertBundle = path.join(import.meta.dirname, './mock.bundle.crt');
 
 describe('bedrock-server helpers', function() {
   describe('_readCertificateBundles', function() {
