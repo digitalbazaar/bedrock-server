@@ -1,5 +1,5 @@
 /*!
- * Copyright 2012 - 2024 Digital Bazaar, Inc.
+ * Copyright 2012 - 2026 Digital Bazaar, Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -16,15 +16,8 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-module.exports = {
-  root: true,
-  parserOptions: {
-    // this is required for dynamic import()
-    ecmaVersion: 2020
-  },
-  env: {
-    node: true
-  },
-  extends: ['digitalbazaar', 'digitalbazaar/jsdoc'],
-  ignorePatterns: ['node_modules/']
-};
+import config from '@digitalbazaar/eslint-config/node-recommended';
+
+export default [
+  ...config
+];
