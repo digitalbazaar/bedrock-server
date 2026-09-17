@@ -1,5 +1,13 @@
 # bedrock-server ChangeLog
 
+## 5.2.1 - 2026-09-xx
+
+### Changed
+- Update dependencies.
+  - `express@4.22.3`
+  - `morgan@1.12.1`
+- Update dev dependencies.
+
 ## 5.2.0 - 2026-08-21
 
 ### Changed
