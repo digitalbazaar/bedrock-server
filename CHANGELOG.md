@@ -1,6 +1,6 @@
 # bedrock-server ChangeLog
 
-## 5.2.1 - 2026-09-xx
+## 5.2.1 - 2026-09-17
 
 ### Changed
 - Update dependencies.
